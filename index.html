@@ -4,13 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>globalcode/webapps/qrcodegenerator</title>
+    <title>QR-Generator</title>
     <meta name="description" content="">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="CSS/or.css">
+    <link rel="stylesheet" href="CSS/qr.css">
 </head>
 
 <body>
@@ -19,17 +19,18 @@
     </div>
     <h1 id="main">Welcome to QR Maker</h1>
     <div class="container">
-        <div class="wrapper">
+        <div class="wrapper" id="resp">
             <header>
                 <h1>QR Code Generator</h1>
-                <p>Paste your url or enter your text to create QR Code</p>
+                <p>Paste your url or enter your text to create QR Code and you can also change the background colour by entering the colour code.</p>
             </header>
             <div class="form">
-                <input type=" placeholder=" Enter text or Url">
+                <input  placeholder=" Enter text or Url">
+                <input class="bg" placeholder="Enter colour code(optional)">
                 <button id="btn">Generate QR Code</button>
             </div>
             <div class="qr-code">
-                <img src="" </div>
+                <a href="" download="QR CODE"><img src=""  </div></a>
             </div>
         </div>
         <footer>
