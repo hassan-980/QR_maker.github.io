@@ -35,14 +35,12 @@ body {
 }
 .wrapper {
     background-color: rgb(18, 158, 213);
-    max-width: 410px;
+    max-width: 450px;
     border-radius: 7px;
     padding: 25px 25px;
     height: 318px;
     transition: height 0.2s ease;
     box-shadow: 6px 10px rgb(2, 57, 78);
-
-
 }
 #main{
     color: white;
@@ -125,11 +123,33 @@ footer p {
     font-size: 11px;
     padding-bottom: 10px;
 }
-
+#reference{
+    padding-top: 12px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+#btn:active{
+    color: black;
+}
+#reference a{
+    color: white;
+}
 @media only screen and (max-width:400px) {
-    #resp{
+    .wrapper{
         max-width: 337px;
         height: 336px;
     }
-    
+    #bgres{
+        font-size: 21px;
+    }
+    .wrapper.active {
+        height: 670px;
+    }
+    #reference{
+        padding-top: 12px;
+        color: white;
+        font-size: 11px;
+        text-align: center;
+    }
 }
