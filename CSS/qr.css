@@ -135,6 +135,9 @@ footer p {
 #btn:active{
     color: black;
 }
+#sec {
+    color: #00FF00;
+}
 #reference a{
     color: white;
 }
