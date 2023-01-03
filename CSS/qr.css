@@ -7,7 +7,7 @@
 
 body {
     min-height: 100vh;
-    background-color: black;
+    background-color: rgb(126, 119, 173);
     font-family: 'Lilita One', cursive;
 }
 
@@ -23,13 +23,14 @@ body {
     text-align: center;
     margin-top:30px ;
     margin-bottom: 50px;
+    color: black;
 }
 .wrapper {
     background-color: rgb(84, 162, 193);
     max-width: 450px;
     border-radius: 7px;
     padding: 25px 25px;
-    height: 318px;
+    height: 450px;
     transition: height 0.2s ease;
     box-shadow: 6px 10px rgb(2, 57, 78);
 }
